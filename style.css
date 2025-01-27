@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+.section {
+    background-color: #eceff4 !important;
+  }
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.invite{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    margin: 3rem;
+    font-weight: bold;
+    background-color: rgb(119, 193, 130);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.submenu{
+    display: flex;
+    justify-content: space-between;
+}
+.sub1{
+    font-size: large;
+
+    
+}
+.nav-link ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 1rem;
+}
+li{
+    list-style: none;
+}
+.interests{
+    background-color: rgb(246, 246, 240);
+}
+.smalltabs{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 4rem;
+}
+.stab, p{
+    font-size: bold;
+    padding: 1rem;
+    box-sizing: border-box;    
+}
+.ads{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 4rem;
+    padding: 1rem;
+}
+.ad, p{
+    font-size: bold;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(25, 25, 59);
+    align-items: center;
+    color: #eceff4;
+    height: 10rem;
+}
+.fnav{
+    display: flex;
+}
+.fov{
+    margin: 1rem;
+}
